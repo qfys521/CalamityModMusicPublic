@@ -6,5 +6,6 @@ namespace CalamityModMusic.Items.Placeables
     public class AnahitaMusicBox : MusicBox
     {
         public override int MusicBoxTile => ModContent.TileType<Tiles.AnahitaMusicBox>();
+        public override string MusicFilePath => "Sounds/Music/Anahita";
     }
 }

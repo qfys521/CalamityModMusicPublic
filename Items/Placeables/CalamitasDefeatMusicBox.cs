@@ -7,15 +7,16 @@ namespace CalamityModMusic.Items.Placeables
     public class CalamitasDefeatMusicBox : MusicBox
     {
         public override int MusicBoxTile => ModContent.TileType<Tiles.CalamitasDefeatMusicBox>();
+        public override string MusicFilePath => "Sounds/Music/CalamitasDefeat";
 
         public override void AddRecipes()
         {
             // Does not play long enough in-game to realistically make this obtainable normally
-			CreateRecipe().
-				AddIngredient(ModContent.ItemType<CalamitasPhase1MusicBox>()).
-				AddIngredient(ModContent.ItemType<CalamitasPhase2MusicBox>()).
-				AddIngredient(ModContent.ItemType<CalamitasPhase3MusicBox>()).
-				AddTile(TileID.TinkerersWorkbench).
+            CreateRecipe().
+                AddIngredient(ModContent.ItemType<CalamitasPhase1MusicBox>()).
+                AddIngredient(ModContent.ItemType<CalamitasPhase2MusicBox>()).
+                AddIngredient(ModContent.ItemType<CalamitasPhase3MusicBox>()).
+                AddTile(TileID.TinkerersWorkbench).
                 Register();
         }
     }

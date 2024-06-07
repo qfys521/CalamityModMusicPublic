@@ -6,5 +6,6 @@ namespace CalamityModMusic.Items.Placeables
     public class SlimeGodMusicBox : MusicBox
     {
         public override int MusicBoxTile => ModContent.TileType<Tiles.SlimeGodMusicBox>();
+        public override string MusicFilePath => "Sounds/Music/SlimeGod";
     }
 }

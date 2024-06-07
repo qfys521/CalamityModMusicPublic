@@ -6,5 +6,6 @@ namespace CalamityModMusic.Items.Placeables
     public class SignusMusicBox : MusicBox
     {
         public override int MusicBoxTile => ModContent.TileType<Tiles.SignusMusicBox>();
+        public override string MusicFilePath => "Sounds/Music/Signus";
     }
 }

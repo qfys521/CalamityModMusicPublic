@@ -7,6 +7,7 @@ namespace CalamityModMusic.Items.Placeables
     public class CalamityTitleMusicBox : MusicBox
     {
         public override int MusicBoxTile => ModContent.TileType<Tiles.CalamityTitleMusicBox>();
+		public override string MusicFilePath => "Sounds/Music/CalamityTitle";
 
         public override void AddRecipes()
         {
@@ -21,7 +22,7 @@ namespace CalamityModMusic.Items.Placeables
 				AddIngredient(ModContent.ItemType<SulphurousSeaDayMusicBox>()).
 				AddIngredient(ModContent.ItemType<SunkenSeaMusicBox>()).
 				AddTile(TileID.TinkerersWorkbench).
-                Register();
+				Register();
         }
     }
 }

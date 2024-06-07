@@ -6,5 +6,6 @@ namespace CalamityModMusic.Items.Placeables
     public class DevourerofGodsPhase1MusicBox : MusicBox
     {
         public override int MusicBoxTile => ModContent.TileType<Tiles.DevourerofGodsPhase1MusicBox>();
+        public override string MusicFilePath => "Sounds/Music/DevourerofGodsPhase1";
     }
 }

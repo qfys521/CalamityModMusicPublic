@@ -6,5 +6,6 @@ namespace CalamityModMusic.Items.Placeables
     public class RavagerMusicBox : MusicBox
     {
         public override int MusicBoxTile => ModContent.TileType<Tiles.RavagerMusicBox>();
+        public override string MusicFilePath => "Sounds/Music/Ravager";
     }
 }

@@ -6,5 +6,6 @@ namespace CalamityModMusic.Items.Placeables
     public class StormWeaverMusicBox : MusicBox
     {
         public override int MusicBoxTile => ModContent.TileType<Tiles.StormWeaverMusicBox>();
+        public override string MusicFilePath => "Sounds/Music/StormWeaver";
     }
 }

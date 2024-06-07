@@ -6,5 +6,6 @@ namespace CalamityModMusic.Items.Placeables
     public class CryogenMusicBox : MusicBox
     {
         public override int MusicBoxTile => ModContent.TileType<Tiles.CryogenMusicBox>();
+        public override string MusicFilePath => "Sounds/Music/Cryogen";
     }
 }

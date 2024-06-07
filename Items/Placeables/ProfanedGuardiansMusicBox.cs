@@ -6,5 +6,6 @@ namespace CalamityModMusic.Items.Placeables
     public class ProfanedGuardiansMusicBox : MusicBox
     {
         public override int MusicBoxTile => ModContent.TileType<Tiles.ProfanedGuardiansMusicBox>();
+        public override string MusicFilePath => "Sounds/Music/ProfanedGuardians";
     }
 }

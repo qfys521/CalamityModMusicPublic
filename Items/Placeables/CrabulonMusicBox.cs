@@ -6,5 +6,6 @@ namespace CalamityModMusic.Items.Placeables
     public class CrabulonMusicBox : MusicBox
     {
         public override int MusicBoxTile => ModContent.TileType<Tiles.CrabulonMusicBox>();
+        public override string MusicFilePath => "Sounds/Music/Crabulon";
     }
 }

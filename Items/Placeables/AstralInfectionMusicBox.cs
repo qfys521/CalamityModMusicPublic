@@ -6,5 +6,6 @@ namespace CalamityModMusic.Items.Placeables
     public class AstralInfectionMusicBox : MusicBox
     {
         public override int MusicBoxTile => ModContent.TileType<Tiles.AstralInfectionMusicBox>();
+        public override string MusicFilePath => "Sounds/Music/AstralInfection";
     }
 }

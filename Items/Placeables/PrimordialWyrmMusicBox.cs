@@ -7,5 +7,6 @@ namespace CalamityModMusic.Items.Placeables
     public class PrimordialWyrmMusicBox : MusicBox
     {
         public override int MusicBoxTile => ModContent.TileType<Tiles.PrimordialWyrmMusicBox>();
+        public override string MusicFilePath => "Sounds/Music/PrimordialWyrm";
     }
 }

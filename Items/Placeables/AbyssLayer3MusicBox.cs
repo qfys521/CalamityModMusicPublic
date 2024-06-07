@@ -6,5 +6,6 @@ namespace CalamityModMusic.Items.Placeables
     public class AbyssLayer3MusicBox : MusicBox
     {
         public override int MusicBoxTile => ModContent.TileType<Tiles.AbyssLayer3MusicBox>();
+        public override string MusicFilePath => "Sounds/Music/AbyssLayer3";
     }
 }

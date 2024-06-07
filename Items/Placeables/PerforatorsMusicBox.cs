@@ -6,5 +6,6 @@ namespace CalamityModMusic.Items.Placeables
     public class PerforatorsMusicBox : MusicBox
     {
         public override int MusicBoxTile => ModContent.TileType<Tiles.PerforatorsMusicBox>();
+        public override string MusicFilePath => "Sounds/Music/Perforators";
     }
 }

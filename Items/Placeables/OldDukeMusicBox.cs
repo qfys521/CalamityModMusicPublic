@@ -6,5 +6,6 @@ namespace CalamityModMusic.Items.Placeables
     public class OldDukeMusicBox : MusicBox
     {
         public override int MusicBoxTile => ModContent.TileType<Tiles.OldDukeMusicBox>();
+        public override string MusicFilePath => "Sounds/Music/OldDuke";
     }
 }

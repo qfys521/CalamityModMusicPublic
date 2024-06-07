@@ -6,5 +6,6 @@ namespace CalamityModMusic.Items.Placeables
     public class LeviathanMusicBox : MusicBox
     {
         public override int MusicBoxTile => ModContent.TileType<Tiles.LeviathanMusicBox>();
+        public override string MusicFilePath => "Sounds/Music/Leviathan";
     }
 }

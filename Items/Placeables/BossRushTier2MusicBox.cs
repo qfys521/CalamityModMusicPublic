@@ -6,5 +6,6 @@ namespace CalamityModMusic.Items.Placeables
     public class BossRushTier2MusicBox : MusicBox
     {
         public override int MusicBoxTile => ModContent.TileType<Tiles.BossRushTier2MusicBox>();
+        public override string MusicFilePath => "Sounds/Music/BossRushTier2";
     }
 }

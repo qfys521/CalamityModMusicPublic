@@ -6,5 +6,6 @@ namespace CalamityModMusic.Items.Placeables
     public class YharonPhase1MusicBox : MusicBox
     {
         public override int MusicBoxTile => ModContent.TileType<Tiles.YharonPhase1MusicBox>();
+        public override string MusicFilePath => "Sounds/Music/YharonPhase1";
     }
 }

@@ -6,5 +6,6 @@ namespace CalamityModMusic.Items.Placeables
     public class CeaselessVoidMusicBox : MusicBox
     {
         public override int MusicBoxTile => ModContent.TileType<Tiles.CeaselessVoidMusicBox>();
+        public override string MusicFilePath => "Sounds/Music/CeaselessVoid";
     }
 }

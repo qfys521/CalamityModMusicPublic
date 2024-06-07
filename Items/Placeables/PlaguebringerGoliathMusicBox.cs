@@ -6,5 +6,6 @@ namespace CalamityModMusic.Items.Placeables
     public class PlaguebringerGoliathMusicBox : MusicBox
     {
         public override int MusicBoxTile => ModContent.TileType<Tiles.PlaguebringerGoliathMusicBox>();
+        public override string MusicFilePath => "Sounds/Music/PlaguebringerGoliath";
     }
 }

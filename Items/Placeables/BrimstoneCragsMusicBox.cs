@@ -6,5 +6,6 @@ namespace CalamityModMusic.Items.Placeables
     public class BrimstoneCragsMusicBox : MusicBox
     {
         public override int MusicBoxTile => ModContent.TileType<Tiles.BrimstoneCragsMusicBox>();
+        public override string MusicFilePath => "Sounds/Music/BrimstoneCrags";
     }
 }

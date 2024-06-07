@@ -6,5 +6,6 @@ namespace CalamityModMusic.Items.Placeables
     public class AstrumAureusMusicBox : MusicBox
     {
         public override int MusicBoxTile => ModContent.TileType<Tiles.AstrumAureusMusicBox>();
+        public override string MusicFilePath => "Sounds/Music/AstrumAureus";
     }
 }

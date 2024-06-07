@@ -6,5 +6,6 @@ namespace CalamityModMusic.Items.Placeables
     public class DragonfollyMusicBox : MusicBox
     {
         public override int MusicBoxTile => ModContent.TileType<Tiles.DragonfollyMusicBox>();
+        public override string MusicFilePath => "Sounds/Music/Dragonfolly";
     }
 }

@@ -6,5 +6,6 @@ namespace CalamityModMusic.Items.Placeables
     public class CalamitasPhase3MusicBox : MusicBox
     {
         public override int MusicBoxTile => ModContent.TileType<Tiles.CalamitasPhase3MusicBox>();
+        public override string MusicFilePath => "Sounds/Music/CalamitasPhase3";
     }
 }

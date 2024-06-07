@@ -6,5 +6,6 @@ namespace CalamityModMusic.Items.Placeables
     public class SulphurousSeaDayMusicBox : MusicBox
     {
         public override int MusicBoxTile => ModContent.TileType<Tiles.SulphurousSeaDayMusicBox>();
+        public override string MusicFilePath => "Sounds/Music/SulphurousSeaDay";
     }
 }
