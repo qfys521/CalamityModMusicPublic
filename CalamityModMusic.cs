@@ -1,4 +1,5 @@
-﻿using Terraria;
+﻿using Microsoft.Xna.Framework.Graphics;
+using Terraria;
 using Terraria.ModLoader;
 
 namespace CalamityModMusic
@@ -29,6 +30,7 @@ namespace CalamityModMusic
 
             if (!Main.dedServ)
                 wikithis?.Call("AddModURL", this, CalamityWikiURL);
+                wikithis?.Call("AddWikiTexture", this, ModContent.Request<Texture2D>("CalamityModMusic/WikiThisIcon"));
         }
 
         public override void Unload()
