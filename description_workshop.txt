@@ -1,10 +1,15 @@
 ﻿[h1]Calamity Mod Music[/h1]
 [url=https://discord.gg/calamity]Discord[/url] [url=https://calamitymod.wiki.gg]Official Wiki[/url]
 
-[b]This mod adds the Calamity soundtrack and music boxes for each song on the soundtrack.[/b] It is intended to be used alongside the Calamity Mod, but can be used alone. You will need to cheat in the music boxes if you do not use the Calamity Mod.
+[b]This mod adds the Calamity soundtrack and music boxes for each of its songs.[/b] It is intended to be used alongside the Calamity Mod, but can be used alone. You will need to use the Calamity Mod in order to naturally obtain the music boxes.
 
-For Calamity game content, e.g. items and bosses, subscribe to the main mod:
+[i]For Calamity game content, e.g. items and bosses, subscribe to the main mod:[/i]
 https://steamcommunity.com/sharedfiles/filedetails/?id=2824688072
+
+[i]For the expanded Calamity soundtrack used for Terraria bosses, biomes and events, subscribe to the vanilla music mod:[/i]
+https://steamcommunity.com/sharedfiles/filedetails/?id=2816188633
+
+[b]Be sure to join our Discord server linked above to keep up with the latest news about upcoming updates and features.[/b]
 
 [hr]
 
@@ -15,12 +20,12 @@ Full list of tracks:
 [*] Heart Plus Up! - Engineer's Sanctum
 [*] DM DOKURO - wasteland
 [*] Heart Plus Up! - caustic tides
-[*] DM DOKURO - The Step Below Hell
 [*] DM DOKURO - Guardian of the Former Seas
 [*] RoverdriveX - corrosion!
 [*] DM DOKURO - Infestation
 [*] DM DOKURO ft. SixteenInMono - Blood Coagulant
 [*] DM DOKURO ft. SixteenInMono - The Filthy Mind
+[*] DM DOKURO - The Step Below Hell
 [*] DM DOKURO - Hadopelagic Pressure
 [*] DM DOKURO ft. SixteenInMono - Return to Slime
 [*] DM DOKURO - The Heaven-Sent Abomination
@@ -30,8 +35,8 @@ Full list of tracks:
 [*] DM DOKURO - Left Alone
 [*] DM DOKURO - Raw, Unfiltered Calamity
 [*] DM DOKURO - Silence before the storms 
-[*] RoverdriveX - R'LYEH
 [*] DM DOKURO - The Leviathan Trilogy (split into three songs)
+[*] RoverdriveX - R'LYEH
 [*] DM DOKURO - Interstellar Stomper
 [*] DM DOKURO - Fly of Beelzebub
 [*] DM DOKURO - Open Frenzy
