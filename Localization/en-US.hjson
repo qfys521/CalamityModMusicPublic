@@ -283,6 +283,11 @@ Mods: {
 				Tooltip: Plays 'caustic tides' by Heart Plus Up!
 			}
 
+			SulphurousSeaRainMusicBox: {
+				DisplayName: Music Box (Sulphurous Sea Rain)
+				Tooltip: Plays 'septication' by Heart Plus Up!
+			}
+
 			SunkenSeaMusicBox: {
 				DisplayName: Music Box (Sunken Sea)
 				Tooltip: Plays 'sanctuary' by DM DOKURO
@@ -361,6 +366,7 @@ Mods: {
 					StormWeaver: Servants of the Scourge (Type W)
 					SulphurousSeaDay: wasteland
 					SulphurousSeaNight: caustic tides
+					SulphurousSeaRain: septication
 					SunkenSea: sanctuary
 					YharonLegacy: Infernal Catharsis
 					YharonPhase1: Infernal Catharsis (Rebirth)

@@ -123,6 +123,7 @@ namespace CalamityModMusic
             AddMusic("StormWeaver", "DMDOKURO");
             AddMusic("SulphurousSeaDay", "DMDOKURO");
             AddMusic("SulphurousSeaNight", "HeartPlusUp");
+            AddMusic("SulphurousSeaRain", "HeartPlusUp");
             AddMusic("SunkenSea", "DMDOKURO");
             AddMusic("YharonLegacy", "DMDOKURO");
             AddMusic("YharonPhase1", "DMDOKURO");
