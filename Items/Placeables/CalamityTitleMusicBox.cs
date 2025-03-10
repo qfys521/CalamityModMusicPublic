@@ -9,10 +9,10 @@ namespace CalamityModMusic.Items.Placeables
         public override int MusicBoxTile => ModContent.TileType<Tiles.CalamityTitleMusicBox>();
 		public override string MusicFilePath => "Sounds/Music/CalamityTitle";
 
-	public override void SetDefaults()
- 	{
+		public override void SetDefaults()
+ 		{
             base.SetDefaults();
-            Item.value = Item.sellPrice(silver: 20);
+            Item.value = 10000;
     	}
 
         public override void AddRecipes()
