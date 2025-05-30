@@ -21,6 +21,11 @@ Mods: {
 				Tooltip: Plays 'void' by DM DOKURO
 			}
 
+			AbyssLegacyMusicBox: {
+				DisplayName: Music Box (Abyss - Legacy)
+				Tooltip: Plays 'R'LYEH' by RoverdriveX
+			}
+
 			AcidRainTier1MusicBox: {
 				DisplayName: Music Box (Acid Rain - Tiers 1 and 2)
 				Tooltip:
@@ -316,6 +321,7 @@ Mods: {
 					AbyssLayer2: Hadopelagic Pressure
 					AbyssLayer3: hydrothermophobia
 					AbyssLayer4: void
+					AbyssLegacy: R'LYEH
 					AcidRainTier1: corrosion!
 					AcidRainTier3: nuclear monsoon
 					Anahita: Siren's War Cry
