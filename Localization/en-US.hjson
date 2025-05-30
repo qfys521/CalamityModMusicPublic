@@ -13,7 +13,7 @@ Mods: {
 
 			AbyssLayer3MusicBox: {
 				DisplayName: Music Box (Abyss - Layer 3)
-				Tooltip: Plays 'R'LYEH' by RoverdriveX
+				Tooltip: Plays 'hydrothermophobia' by CDMusic
 			}
 
 			AbyssLayer4MusicBox: {
@@ -314,7 +314,7 @@ Mods: {
 				SongNames: {
 					AbyssLayer1: hesitation
 					AbyssLayer2: Hadopelagic Pressure
-					AbyssLayer3: R'LYEH
+					AbyssLayer3: hydrothermophobia
 					AbyssLayer4: void
 					AcidRainTier1: corrosion!
 					AcidRainTier3: nuclear monsoon
