@@ -4,7 +4,7 @@
 - [Steam Workshop](https://calamitymod.com/downloadmusic/)
 - [Discord](https://discord.gg/calamity)
 - [Official Wiki](https://calamitymod.wiki.gg/)
-- *New Patreon currently under construction*
+- [Patreon](https://patreon.com/CalamityMod)
 
 The Calamity Music Mod is a small Terraria mod which adds Calamity's soundtrack to the game, along with music boxes for each song on the soundtrack. It is intended to be used alongside the Calamity Mod, but can be used alone. The mod must be installed using [tModLoader](https://github.com/tModLoader/tModLoader).
 
