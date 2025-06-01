@@ -72,6 +72,7 @@ namespace CalamityModMusic
             AddMusic("AbyssLayer1", "HeartPlusUp");
             AddMusic("AbyssLayer2", "DMDOKURO");
             AddMusic("AbyssLayer3", "CDMusic");
+            AddMusic("AbyssLayer3Alt", "HeartPlusUp");
             AddMusic("AbyssLayer4", "DMDOKURO");
             AddMusic("AbyssLegacy", "RoverdriveX");
             AddMusic("AcidRainTier1", "RoverdriveX");
