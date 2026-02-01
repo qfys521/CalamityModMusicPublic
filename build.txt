@@ -1,5 +1,5 @@
 author = The Calamity Dev Team
-version = 2.0.5
+version = 2.1
 displayName = Calamity Mod Music
 homepage = https://calamitymod.com
 hideCode = true
