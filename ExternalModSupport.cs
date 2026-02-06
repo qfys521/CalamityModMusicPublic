@@ -89,6 +89,7 @@ namespace CalamityModMusic
             AddMusic("BossRushTier2", "CDMusic");
             AddMusic("BossRushTier3", "CDMusic");
             AddMusic("BossRushTier4", "CDMusic");
+            AddMusic("BrainstormTrailer", "MoonburnFeature");
             AddMusic("BrimstoneCrags", "DMDOKURO");
             AddMusic("BrimstoneElemental", "DMDOKURO");
             AddMusic("CalamitasClone", "DMDOKURO");
