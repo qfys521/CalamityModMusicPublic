@@ -1,4 +1,25 @@
 <Project Sdk="Microsoft.NET.Sdk">
-  <Import Project="..\tModLoader.targets" />
+  <Import Project="..\tModLoader.targets" Condition="Exists('..\tModLoader.targets')" />
+  <Import Project="..\tModLoader\tModLoader.targets" Condition="!Exists('..\tModLoader.targets')" />
 
+  <PropertyGroup>
+    <AssemblyName>CalamityModMusic</AssemblyName>
+    <ExpectedModSourceDirectoryName>CalamityModMusic</ExpectedModSourceDirectoryName>
+    <ActualModSourceDirectoryName>$([System.IO.Path]::GetFileName('$(MSBuildProjectDirectory)'))</ActualModSourceDirectoryName>
+  </PropertyGroup>
+
+  <!-- tML derives a mod's internal ID from the source directory name. -->
+  <Target Name="BuildMod" AfterTargets="Build" Condition="'$(BuildMod)' == 'true'">
+    <Message
+      Condition="'$(ActualModSourceDirectoryName)' != '$(ExpectedModSourceDirectoryName)'"
+      Importance="high"
+      Text="Skipped .tmod packaging because source directory '$(ActualModSourceDirectoryName)' would create the wrong mod ID. Run tModLoader's -build command with a source path ending in '$(ExpectedModSourceDirectoryName)'."
+    />
+    <Exec
+      Condition="'$(ActualModSourceDirectoryName)' == '$(ExpectedModSourceDirectoryName)'"
+      Command="$(BuildLaunch) $(tMLServerPath) -build $(ProjectDir) -eac $(TargetPath) -define &quot;$(DefineConstants)&quot; -unsafe $(AllowUnsafeBlocks) $(ExtraBuildModFlags)"
+      WorkingDirectory="$(tModLoaderSteamPath)"
+      EnvironmentVariables="$(BuildEnvVars)"
+    />
+  </Target>
 </Project>

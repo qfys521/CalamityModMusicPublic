@@ -29,8 +29,10 @@ namespace CalamityModMusic
             ModLoader.TryGetMod("MusicDisplay", out musicDisplay);
 
             if (!Main.dedServ)
+            {
                 wikithis?.Call("AddModURL", this, CalamityWikiURL);
                 wikithis?.Call("AddWikiTexture", this, ModContent.Request<Texture2D>("CalamityModMusic/WikiThisIcon"));
+            }
         }
 
         public override void Unload()
@@ -38,6 +40,7 @@ namespace CalamityModMusic
             wikithis = null;
             calamity = null;
             bossChecklist = null;
+            musicDisplay = null;
             Instance = null;
         }
     }
